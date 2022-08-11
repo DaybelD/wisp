@@ -17,13 +17,19 @@
               <a class="nav-link active" href="contratos.php"><img src="images/filter-square.svg" width="16" height="16">Contratos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="servidores.php"><img src="images/reception-4.svg" width="16" height="16">Servidores</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link active" href="planes.php"><img src="images/coin.svg" width="16" height="16">Planes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="facturas.php"><img src="images/text.svg" width="16" height="16">Facturación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="personal.php"><img src="images/person-badge.svg" width="16" height="16">Personal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="proveedores.php"><img src="images/provee.svg" width="16" height="16">Proveedores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="almacen.php"><img src="images/boxes.svg" width="16" height="16">Almacén</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="ajustes.php"><img src="images/gear.svg" width="16" height="16"> Ajustes</a>
