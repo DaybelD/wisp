@@ -18,5 +18,5 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
-    <title>{$titulo} - Inspector</title>
+    <title>{$titulo}</title>
   </head>

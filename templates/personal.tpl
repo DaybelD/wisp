@@ -1,5 +1,10 @@
-{include file="cab2.tpl" titulo="Clientes"}
+{include file="cab2.tpl" titulo="Personal"}
 
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregar empleado">
+    <img src="images/person-plus.svg" alt="Editar" width="16" height="16">
+  </a>
+</div>
 <table class="table table-responsive">
   <thead>
     <tr>
@@ -30,7 +35,7 @@
       <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
       <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
     </tr>
-        <tr>
+    <tr>
       <th scope="row">1</th>
       <td>admin</td>
       <td>admin</td>
@@ -44,7 +49,7 @@
       <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
       <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
     </tr>  
-        <tr>
+    <tr>
       <th scope="row">1</th>
       <td>user06</td>
       <td>85236</td>
@@ -58,7 +63,7 @@
       <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
       <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
     </tr>
-        <tr>
+    <tr>
       <th scope="row">1</th>
       <td>user01</td>
       <td>12345</td>

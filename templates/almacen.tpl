@@ -1,4 +1,13 @@
-{include file="cab2.tpl" titulo="Clientes"}
+{include file="cab2.tpl" titulo="Almacén"}
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregar producto">
+    <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
+  </a>
+  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Lista completa de productos">
+    <img src="images/eye.svg" alt="Editar" width="16" height="16">
+  </a>
+</div>
 
 <table class="table caption-top">
 <caption>Lista de productos</caption>
@@ -10,7 +19,7 @@
       <th scope="col">Código</th>
       <th scope="col">Marca</th>
       <th scope="col">Modelo</th>
-      <th scope="col">DEscripción</th>
+      <th scope="col">Descripción</th>
       <th scope="col">Precio</th>
       <th scope="col">Disponibles</th>
       <th scope="col">Acciones</th>
@@ -20,6 +29,15 @@
     </tr>
   </thead>
 </table>
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregar router">
+    <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
+  </a>
+  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Lista completa de routers">
+    <img src="images/eye.svg" alt="Editar" width="16" height="16">
+  </a>
+</div>
 
 <table class="table table-responsive caption-top">
 <caption>Lista de routers</caption>

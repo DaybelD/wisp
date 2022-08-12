@@ -1,4 +1,10 @@
-{include file="cab2.tpl" titulo="Clientes"}
+{include file="cab2.tpl" titulo="Contratos"}
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregar contrato">
+    <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
+  </a>
+</div>
 <table class="table table-responsive">
   <thead>
     <tr>

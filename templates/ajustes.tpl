@@ -1,4 +1,4 @@
-{include file="cab2.tpl" titulo="Clientes"}
+{include file="cab2.tpl" titulo="Ajustes"}
 <!-- Contenido -->
 
 

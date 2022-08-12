@@ -17,6 +17,9 @@
               <a class="nav-link active" href="contratos.php"><img src="images/filter-square.svg" width="16" height="16">Contratos</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link active" href="instalaciones.php"><img src="images/hammer.svg" width="16" height="16">Instalaciones</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" href="planes.php"><img src="images/coin.svg" width="16" height="16">Planes</a>
             </li>
             <li class="nav-item">
