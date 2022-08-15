@@ -31,9 +31,7 @@
       <td>luisperez@gmail.com</td>
       <td>04265869214</td>
       <td>Administrador</td>
-  	  <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+  	  <td>{include file="acciones.tpl"}</td>
     </tr>
     <tr>
       <th scope="row">1</th>
@@ -45,9 +43,7 @@
       <td>luisperez@gmail.com</td>
       <td>04265869214</td>
       <td>Administrador</td>
-  	  <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+  	  <td>{include file="acciones.tpl"}</td>
     </tr>  
     <tr>
       <th scope="row">1</th>
@@ -59,9 +55,7 @@
       <td>blancojose@gmail.com</td>
       <td>04265869214</td>
       <td>Usuario</td>
-  	  <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+  	  <td>{include file="acciones.tpl"}</td>
     </tr>
     <tr>
       <th scope="row">1</th>
@@ -73,9 +67,7 @@
       <td>luisperez25@gmail.com</td>
       <td>04265869214</td>
       <td>Usuario</td>
-  	  <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+  	  <td>{include file="acciones.tpl"}</td>
     </tr>
   </tbody>
 </table>

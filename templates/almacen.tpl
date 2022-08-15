@@ -4,9 +4,6 @@
   <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregar producto">
     <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
   </a>
-  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Lista completa de productos">
-    <img src="images/eye.svg" alt="Editar" width="16" height="16">
-  </a>
 </div>
 
 <table class="table caption-top">
@@ -25,7 +22,16 @@
       <th scope="col">Acciones</th>
     </tr>
     <tr>
-    	<th>......</th>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>{include file="acciones.tpl"}</th>
     </tr>
   </thead>
 </table>
@@ -33,9 +39,6 @@
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
   <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregar router">
     <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
-  </a>
-  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Lista completa de routers">
-    <img src="images/eye.svg" alt="Editar" width="16" height="16">
   </a>
 </div>
 
@@ -58,7 +61,19 @@
       <th scope="col">Acciones</th>
     </tr>
     <tr>
-    	<th>......</th>
+    	<td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>......</td>
+      <td>{include file="acciones.tpl"}</th>
     </tr>
   </thead>
 </table>

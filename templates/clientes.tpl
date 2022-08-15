@@ -23,9 +23,7 @@
       <td>V-12365258</td>
       <td>markgonza@gmail.com</td>
       <td>04128523698</td>
-  	  <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+  	  <td>{include file="acciones.tpl"}</td>
     </tr>
     <tr>
       <th scope="row">2</th>
@@ -33,9 +31,7 @@
       <td>V- 15745852</td>
       <td>jperez@hotmail.com</td>
       <td>04261598632</td>
-     <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+     <td> {include file="acciones.tpl"} </td>
     </tr>    
     <tr>
       <th scope="row">3</th>
@@ -43,9 +39,7 @@
       <td>V- 26741357</td>
       <td>...</td>
       <td>04147852368</td>
-     <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+     <td> {include file="acciones.tpl"} </td>
     </tr>
     <tr>
       <th scope="row">4</th>
@@ -53,9 +47,7 @@
       <td>V- 30123654</td>
       <td>carrillolarry@yahoo.com</td>
       <td>...</td>
-      <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+      <td> {include file="acciones.tpl"}</td>
     </tr>
   </tbody>
 </table>

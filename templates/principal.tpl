@@ -3,13 +3,13 @@
       <h1>Bienvenido al sistema - Usuario</h1><br>
 
       <div class="alert alert-primary" role="alert">
-        Clientes activos <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">25
+        <a href="clientes.php">Clientes activos</a> <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">2
       </div>
       <div class="alert alert-danger" role="alert">
-        Contratos <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">25
+        Contratos <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">15
       </div>
       <div class="alert alert-warning" role="alert">
-        Servicios por activación <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">25
+        Servicios por activación <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">8
       </div>
       <div class="alert alert-success" role="alert">
         Servicios por activación <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">25

@@ -5,9 +5,6 @@
   <a class="btn btn-outline-dark" href="agregarfactura.php" role="button" title="Agregar factura">
     <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
   </a>
-  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Ver factura">
-    <img src="images/eye.svg" alt="Editar" width="16" height="16">
-  </a>
 </div>
 <table class="table table-responsive">
   <thead>
@@ -33,9 +30,7 @@
       <td>Zona #1</td>
       <td>...</td>
       <td>...</td>
-  	  <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+  	  <td>{include file="acciones.tpl"}</td>
     </tr>
     <tr>
       <th scope="row">2</th>
@@ -46,9 +41,7 @@
       <td>Zona #4</td>
       <td>...</td>
       <td>...</td>
-      <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+      <td>{include file="acciones.tpl"}</td>
     </tr>   
      <tr>
       <th scope="row">3</th>
@@ -59,9 +52,7 @@
       <td>Zona #1</td>
       <td>...</td>
       <td>...</td>
-      <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+      <td>{include file="acciones.tpl"}</td>
     </tr>
      <tr>
       <th scope="row">4</th>
@@ -72,9 +63,7 @@
       <td>Zona #1</td>
       <td>...</td>
       <td>...</td>
-      <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+      <td>{include file="acciones.tpl"}</td>
     </tr>
   </tbody>
 </table>

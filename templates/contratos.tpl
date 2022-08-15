@@ -27,9 +27,7 @@
       <td>...</td>
       <td>Zona #1</td>
       <td>...</td>
-  	  <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+  	  <td>{include file="acciones.tpl"}</td>
     </tr>
     <tr>
       <th scope="row">2</th>
@@ -39,9 +37,7 @@
       <td>...</td>
       <td>Zona #4</td>
       <td>...</td>
-      <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+      <td>{include file="acciones.tpl"}</td>
     </tr>   
      <tr>
       <th scope="row">3</th>
@@ -51,9 +47,7 @@
       <td>...</td>
       <td>Zona #1</td>
       <td>...</td>
-      <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+      <td>{include file="acciones.tpl"}</td>
     </tr>
      <tr>
       <th scope="row">4</th>
@@ -63,9 +57,7 @@
       <td>...</td>
       <td>Zona #1</td>
       <td>...</td>
-      <td>
-      <img src="images/pencil-square.svg" title="Editar" alt="Editar" width="16" height="16">
-      <img src="images/x-circle.svg" title="Eliminar" alt="Eliminar" width="16" height="16"> </td>
+      <td>{include file="acciones.tpl"}</td>
     </tr>
   </tbody>
 </table>
