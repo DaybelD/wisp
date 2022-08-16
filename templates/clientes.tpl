@@ -47,7 +47,7 @@
       <td>V- 30123654</td>
       <td>carrillolarry@yahoo.com</td>
       <td>...</td>
-      <td> {include file="acciones.tpl"}</td>
+      <td>{include file="acciones.tpl"}</td>
     </tr>
   </tbody>
 </table>
