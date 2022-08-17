@@ -1,7 +1,7 @@
 {include file="cab2.tpl" titulo="Clientes"}
 
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregar cliente">
+  <a class="btn btn-outline-dark" href="agregarcliente.php" role="button" title="Agregar cliente">
     <img src="images/person-plus.svg" alt="Editar" width="16" height="16">
   </a>
 </div>

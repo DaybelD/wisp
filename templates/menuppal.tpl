@@ -31,9 +31,13 @@
             <li class="nav-item">
               <a class="nav-link active" href="proveedores.php"><img src="images/provee.svg" width="16" height="16">Proveedores</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="almacen.php"><img src="images/boxes.svg" width="16" height="16">Almacén</a>
-            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/boxes.svg" width="16" height="16">Almacén</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="productos.php">Productos</a></li>
+              <li><a class="dropdown-item" href="routers.php">Routers</a></li>
+            </ul>
+          </li>
             <li class="nav-item">
               <a class="nav-link active" href="ajustes.php"><img src="images/gear.svg" width="16" height="16"> Ajustes</a>
             </li>

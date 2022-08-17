@@ -2,34 +2,40 @@
 
 $agregarfac = new FormHandler('', '');
 
-$agregarfac->textField('Nombre', 'nombre', FH_STRING, '', 'placeholder="Nombre"');
-
-$agregarfac->textField('Apellido', 'apellido', FH_STRING, '', 'placeholder="Apellido"');
-$agregarfac->textField('DNI', 'dni', FH_STRING, '', 'placeholder="Documento de identidad"');
-$agregarfac->textField('E-mail', 'email', FH_STRING, '', 'placeholder="Correo electrónico"');
-$agregarfac->textArea('Dirección', 'direccion', FH_STRING, '', '');
-$agregarfac->textArea('Dirección', 'direccion', FH_STRING, '', '');
-
-$ciudades = array(
+$agregarfac-> textField('Numero', 'id');
+$clientes = array(
     ''             => '-- Select --',
-    'val'           => 'Valera',
-    'truji'          => 'trujillo',
+    'mark'         => 'Mark Torres',
+    'luis'         => 'Luis Hernandez',
 
 );
-$agregarfac-> selectField('Ciudades', 'ciudades', $ciudades, FH_STRING, "form-select-sm", 'city');
-
-$agregarfac->textField('Codigo postal', 'cod_postal', FH_STRING);
-$agregarfac->textField('Télefono', 'telef1', FH_STRING);
-$agregarfac->textField('Móvil', 'telef2', FH_STRING);
-
-$nivel = array(
+$agregarfac-> selectField('Cliente', 'clientes', $clientes, FH_STRING, "form-select-sm");
+$productos = array(
     ''             => '-- Select --',
-    'user'           => 'Usuario',
-    'admin'          => 'Administrador',
+    '01'         => '01',
+    '02'         => '02',
 
 );
-$agregarfac-> selectField('Nivel', 'nivel', $nivel, null, "form-select-sm", null);
+$agregarfac-> selectField('Productos', 'productos', $productos, FH_STRING, "form-select-sm", null);
+$instalaciones = array(
+    ''             => '-- Select --',
+    'insta1'         => '1235',
+    'insta2'         => '2589',
 
-$agregarfac->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+);
+$agregarfac-> selectField('Instalacion realizada', 'instalaciones', $instalaciones, null, "form-select-sm", null);
+$planes = array(
+    ''             => '-- Select --',
+    'mega'         => 'Mega PLUS',
+    'advan'        => 'Advanced',
+
+);
+$agregarfac-> selectField('Plan', 'planes', $planes, FH_STRING, "form-select-sm");
+
+$agregarfac-> textField('Fecha', 'fecha');
+
+$agregarfac-> textField('Total', 'total');
+
+$agregarfac->submitButton('Agregar factura', 'btn_continuar', 'btn-primary btn-sm');
 
 $agregarfac = $agregarfac->flush(true);

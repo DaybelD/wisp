@@ -1,7 +1,7 @@
 {include file="cab2.tpl" titulo="Planes"}
 
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregrar plan">
+  <a class="btn btn-outline-dark" href="agregarplanes.php" role="button" title="Agregrar plan">
     <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
   </a>
 </div>

@@ -9,11 +9,9 @@
 <table class="table table-responsive">
   <thead>
     <tr>
-      <th scope="col"></th>
       <th scope="col">Nro #</th>
+      <th scope="col">Estatus</th>
       <th scope="col">Cliente</th>
-      <th scope="col">Productos</th>
-      <th scope="col">Instalacion</th>
       <th scope="col">Plan</th>
       <th scope="col">Fecha</th>
       <th scope="col">Total</th>
@@ -22,49 +20,23 @@
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
+      <td>01</td>
+      <td>Cancelado</td>
+      <td>Luis Blanco</td>
+      <td>Mega</td>
       <td>25/03/2022</td>
-      <td>...</td>
-      <td>Zona #1</td>
-      <td>...</td>
       <td>...</td>
   	  <td>{include file="acciones.tpl"}</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Mark</td>
+      <td>02</td>
+      <td>Pendiente</td>
+      <td>Gerardo Perez</td>
       <td>Advanced</td>
       <td>12/04/2021</td>
       <td>...</td>
-      <td>Zona #4</td>
-      <td>...</td>
-      <td>...</td>
       <td>{include file="acciones.tpl"}</td>
     </tr>   
-     <tr>
-      <th scope="row">3</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>25/03/2022</td>
-      <td>...</td>
-      <td>Zona #1</td>
-      <td>...</td>
-      <td>...</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>
-     <tr>
-      <th scope="row">4</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>25/03/2022</td>
-      <td>...</td>
-      <td>Zona #1</td>
-      <td>...</td>
-      <td>...</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>
   </tbody>
 </table>
 
