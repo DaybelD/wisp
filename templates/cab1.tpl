@@ -10,6 +10,7 @@
     <meta name="author" content="3valtech Inc.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bticons/bootstrap-icons.css">
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
