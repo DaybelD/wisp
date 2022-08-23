@@ -1,13 +1,13 @@
 {include file="cab2.tpl" titulo="Almacén"}
 
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <a class="btn btn-outline-dark" href="principal.php" role="button" title="Agregar router">
-    <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
+<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
+  <h3>Lista de routers</h3>
+  <a class="btn btn-outline-light" href="agregarrouters.php" role="button" title="Agregar contrato">
+    <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>
-
-<table class="table table-responsive caption-top">
-<caption>Lista de routers</caption>
+<div class="table-responsive">
+<table class="table">
   <thead>
     <tr>
       <th scope="col"></th>
@@ -41,5 +41,5 @@
     </tr>
   </thead>
 </table>
-
+</td>
 {include file="pie2.tpl"}

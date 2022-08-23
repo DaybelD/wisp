@@ -1,11 +1,13 @@
 {include file="cab2.tpl" titulo="Planes"}
 
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <a class="btn btn-outline-dark" href="agregarplanes.php" role="button" title="Agregrar plan">
-    <img src="images/plus-lg.svg" alt="Editar" width="16" height="16">
+<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
+  <h3>Planes</h3>
+  <a class="btn btn-outline-light" href="agregarplanes.php" role="button" title="Agregar contrato">
+    <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>
-<table class="table table-responsive">
+<div class="table-responsive">
+<table class="table">
   <thead>
     <tr>
       <th scope="col"></th>

@@ -1,27 +1,26 @@
 <!--Inicio de la barra de navegacion-->
     <nav  id="inicio" class="navbar navbar-expand-sm navbar-light"  style="background-color: #dce9f5;" aria-label="Third navbar example">
       <div class="container-md">
-        <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        <a href="principal.php">
+        <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExample03">
           <ul class="navbar-nav me-auto mb-2 mb-sm-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="principal.php"><img src="images/house.svg" width="16" height="16"> Inicio</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link active" href="clientes.php"><img src="images/people.svg" width="16" height="16">Clientes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="contratos.php"><img src="images/filter-square.svg" width="16" height="16">Contratos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="instalaciones.php"><img src="images/hammer.svg" width="16" height="16">Instalaciones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="planes.php"><img src="images/coin.svg" width="16" height="16">Planes</a>
-            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/clipboard.svg" width="16" height="16">Servicios</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="instalaciones.php">Instalaciones</a></li>
+              <li><a class="dropdown-item" href="planes.php">Planes</a></li>
+            </ul>
+          </li>
             <li class="nav-item">
               <a class="nav-link active" href="facturas.php"><img src="images/text.svg" width="16" height="16">Facturación</a>
             </li>
@@ -38,6 +37,16 @@
               <li><a class="dropdown-item" href="routers.php">Routers</a></li>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/coin.svg" width="16" height="16">Finanzas</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="compras.php">Compras</a></li>
+              <li><a class="dropdown-item" href="gastos.php">Gastos</a></li>
+              <li><a class="dropdown-item" href="pagos.php">Pagos</a></li>
+              <li><a class="dropdown-item" href="formapagos.php">Formas de pago</a></li>
+            </ul>
+          </li>
+
             <li class="nav-item">
               <a class="nav-link active" href="ajustes.php"><img src="images/gear.svg" width="16" height="16"> Ajustes</a>
             </li>
