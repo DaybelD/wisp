@@ -42,6 +42,7 @@ $personal = array(
 );
 $agregarcontr-> selectField('Personal encargado de instalacion', 'personal', $personal, null, "form-select-sm", null);
 
+$agregarcontr->dateTextField('Fecha de inicio del contrato', 'fecha', FH_STRING);
 $agregarcontr->textArea('Observaciones', 'observaciones', FH_STRING, '', '');
 
 $agregarcontr->submitButton('Agregar contrato', 'btn_continuar', 'btn-primary btn-sm');

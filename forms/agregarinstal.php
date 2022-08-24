@@ -36,6 +36,8 @@ $personal = array(
 );
 $agregarinstal-> selectField('Personal encargado de instalacion', 'personal', $personal, null, "form-select-sm", null);
 
+$agregarinstal->dateTextField('Fecha de instalacion', 'fecha', FH_STRING);
+
 $agregarinstal->submitButton('Agregar instalacion', 'btn_continuar', 'btn-primary btn-sm');
 
 $agregarinstal = $agregarinstal->flush(true);

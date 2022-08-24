@@ -32,7 +32,7 @@ $planes = array(
 );
 $agregarfac-> selectField('Plan', 'planes', $planes, FH_STRING, "form-select-sm");
 
-$agregarfac-> textField('Fecha', 'fecha');
+$agregarfac->dateTextField('Fecha de facturación', 'fecha', FH_STRING);
 
 $agregarfac-> textField('Total', 'total');
 

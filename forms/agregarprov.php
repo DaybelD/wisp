@@ -24,6 +24,7 @@ $contribuyente = array(
 
 );
 $agregarprov-> selectField('Contribuyente especial', 'contribuyente', $contribuyente, FH_STRING, "form-select-sm");
+$agregarprov->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
 
 $agregarprov->submitButton('Agregar proveedor', 'btn_continuar', 'btn-primary btn-sm');
 

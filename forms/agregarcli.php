@@ -2,6 +2,7 @@
 
 $agregarcli = new FormHandler('', '');
 
+
 $agregarcli->textField('Nombre', 'nombre', FH_STRING, '', 'placeholder="Nombre"');
 
 $agregarcli->textField('Apellido', 'apellido', FH_STRING, '', 'placeholder="Apellido"');
@@ -29,6 +30,7 @@ $nivel = array(
 
 );
 $agregarcli-> selectField('Nivel', 'nivel', $nivel, null, "form-select-sm", null);
+$agregarcli->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
 
 $agregarcli->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
 

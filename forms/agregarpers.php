@@ -28,7 +28,7 @@ $niveles = array(
 
 );
 $agregarpers-> selectField('Nivel de acceso', 'nivel', $niveles, FH_STRING, "form-select-sm", 'city');
-
+$agregarpers->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
 $agregarpers->submitButton('Agregar personal', 'btn_continuar', 'btn-primary btn-sm');
 
 $agregarpers = $agregarpers->flush(true);

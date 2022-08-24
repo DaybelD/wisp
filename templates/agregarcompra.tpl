@@ -1,9 +1,9 @@
-{include file="cab2.tpl" titulo="Agregar personal"}
-<h4>Agregar personal</h4>
+{include file="cab2.tpl" titulo="Agregar cliente"}
+<h4>Agregar nueva compra</h4>
 <form class="card p-5">
 	<div class="mb-3">
 		<div class="container">
-			{$agregarpers}
+			{$agregarcom}
 		</div>
 	</div>
 </form>
