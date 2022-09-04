@@ -8,7 +8,7 @@
 </div>
 
 <div class="table-responsive">
-<table class="table">
+<table class="table" id="contratos">
   <thead>
     <tr>
       <th scope="col">Nro.</th>
@@ -20,41 +20,27 @@
     </tr>
   </thead>
   <tbody>
+  {foreach $e as $contr}
     <tr>
-      <th scope="row">1236</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>25/03/2022</td>
-      <td>Zona #1</td>
+      <td>{$contr.id}</td>
+      <td>{$contr.cliente_id}</td>
+      <td>{$contr.plan_id}</td>
+      <td>{$contr.fecha}</td>
+      <td>{$contr.zona_id}</td>
   	  <td>{include file="acciones.tpl"}</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Mark</td>
-      <td>Advanced</td>
-      <td>12/04/2021</td>
-      <td>Zona #4</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>   
-     <tr>
-      <th scope="row">3</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>25/03/2022</td>
-      <td>Zona #1</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>
-     <tr>
-      <th scope="row">4</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>25/03/2022</td>
-      <td>Zona #1</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>
+    {/foreach}
   </tbody>
 </table>
 </div>
+
+<script>
+  
+  var tabla= document.querySelector("#contratos");
+
+  var dataTable = new DataTable(tabla);
+
+</script>
 
 
 

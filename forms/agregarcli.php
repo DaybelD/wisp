@@ -17,12 +17,12 @@ $agregarcli->textField('Codigo postal', 'cod_postal', FH_STRING);
 $agregarcli->textField('Télefono', 'telef1', FH_STRING);
 $agregarcli->textField('Móvil', 'telef2', FH_STRING);
 
-$nivel = array(
+$nivel = [
 	'' => '-- Select --',
 	'user' => 'Usuario',
 	'admin' => 'Administrador',
 
-);
+];
 $agregarcli->selectField('Nivel', 'nivel', $nivel, null, "form-select-sm", null);
 $agregarcli->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
 

@@ -1,14 +1,14 @@
 {include file="cab2.tpl" titulo="Compras"}
 
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
-  <h3>Compras</h3>
+  <h3>Finanzas / Compras</h3>
   <a class="btn btn-outline-light" href="agregarcompra.php" role="button" title="Agregar contrato">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>
 
 <div class="table-responsive">
-<table class="table">
+<table class="table" id="compras">
   <thead>
     <tr>
       <th scope="col">Nro.</th>
@@ -55,7 +55,13 @@
   </tbody>
 </table>
 </div>
+<script>
+  
+  var tabla= document.querySelector("#compras");
 
+  var dataTable = new DataTable(tabla);
+
+</script>
 
 
 {include file="pie2.tpl"}

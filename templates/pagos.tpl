@@ -1,7 +1,7 @@
 {include file="cab2.tpl" titulo="Pagos"}
 
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
-  <h3>Pagos</h3>
+  <h3>Finanzas / Pagos</h3>
   <a class="btn btn-outline-light" href="agregarpago.php" role="button" title="Agregar contrato">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>

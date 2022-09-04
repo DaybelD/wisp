@@ -1,5 +1,7 @@
 {include file="cab2.tpl" titulo="Agregar cliente"}
-<h4>Agregar Plan </h4>
+<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
+  <h3> Servicios / Planes / Agregar plan nuevo</h3>
+</div>
 <form class="card p-5">
 	<div class="mb-3">
 		<div class="container">

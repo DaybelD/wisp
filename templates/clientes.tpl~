@@ -8,7 +8,7 @@
 </div>
 
 <div class="table-responsive">
-<table class="table" id="clientes">
+<table class="table">
   <thead>
     <tr>
       <th scope="col">Nombre</th>
@@ -32,14 +32,6 @@
   </tbody>
 </table>
 </div>
-
-<script>
-  
-  var tabla= document.querySelector("#clientes");
-
-  var dataTable = new DataTable(tabla);
-
-</script>
 
 <!-- /Contenido -->
 {include file="pie2.tpl"}

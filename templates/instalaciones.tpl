@@ -1,6 +1,6 @@
 {include file="cab2.tpl" titulo="Instalaciones"}
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
-  <h3>Instalaciones</h3>
+  <h3>Servicios / Instalaciones</h3>
   <a class="btn btn-outline-light" href="agregarinstalaciones.php" role="button" title="Agregar contrato">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>

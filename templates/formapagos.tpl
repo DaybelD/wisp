@@ -1,14 +1,14 @@
 {include file="cab2.tpl" titulo="Formas de pago"}
 
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
-  <h3>Formas de pago</h3>
+  <h3>Finanzas / Formas de pago</h3>
   <a class="btn btn-outline-light" href="agregarformapago.php" role="button" title="Agregar contrato">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>
 
 <div class="table-responsive">
-<table class="table">
+<table class="table" id="formapagos">
   <thead>
     <tr>
       <th scope="col">Forma de pago</th>
@@ -18,33 +18,25 @@
     </tr>
   </thead>
   <tbody>
+  {foreach $c as $frmpag}
     <tr>
-      <th scope="row">1236</th>
-      <td>Mark</td>
-      <td>Zona #1</td>
-  	  <td>{include file="acciones.tpl"}</td>
+      <td>{$frmpag.nombre}</td>
+      <td>{$frmpag.moneda_id}</td>
+      <td>{$frmpag.plataforma}</td>
+    <td>{include file="acciones.tpl"}</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Mark</td>
-      <td>Advanced</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>   
-     <tr>
-      <th scope="row">3</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>
-     <tr>
-      <th scope="row">4</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>
+{/foreach}
   </tbody>
 </table>
 </div>
+
+<script>
+  
+  var tabla= document.querySelector("#formapagos");
+
+  var dataTable = new DataTable(tabla);
+
+</script>
 
 
 
