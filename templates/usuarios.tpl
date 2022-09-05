@@ -12,7 +12,6 @@
   <thead>
     <tr>
       <th scope="col">Usuario</th>
-      <th scope="col">Clave</th>
       <th scope="col">Nombre</th>
       <th scope="col">Nivel de usuario</th>
       <th scope="col">Acciones</th>
@@ -22,7 +21,6 @@
 {foreach $t as $user}
     <tr>
       <td>{$user.id}</td>
-      <td>{$user.clave}</td>
       <td>{$user.nombre}</td>
       <td>{$user.nivel}</td>
 	  <td>{include file="acciones.tpl"}</td>

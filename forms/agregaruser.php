@@ -6,6 +6,8 @@ $agregaruser->textField('Usuario', 'id', FH_STRING, '', 'placeholder="Usuario"')
 
 $agregaruser->textField('Clave', 'clave', FH_STRING, '', 'placeholder="Clave"');
 
+$agregaruser->textField('Confirme la clave', 'confirmeclave', FH_STRING);
+
 $agregaruser->textField('Nombre', 'nombre', FH_STRING, '', 'placeholder="Nombre"');
 
 $nivel = [
