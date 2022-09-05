@@ -46,11 +46,12 @@
               <li><a class="dropdown-item" href="formapagos.php">Formas de pago</a></li>
             </ul>
           </li>
-
-            <li class="nav-item">
-              <a class="nav-link active" href="ajustes.php"><img src="images/gear.svg" width="16" height="16"> Ajustes</a>
-            </li>
-          </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/gear.svg" width="16" height="16">Ajustes</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="usuarios.php">Usuarios</a></li>
+            </ul>
+          </li>
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
             <a class="btn btn-bd-light" href="index.php" role="button"><img src="images/door-open.svg" width="16" height="16">Salir</a>
           </div>
