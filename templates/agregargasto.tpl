@@ -2,7 +2,7 @@
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
   <h3> Finanzas / Gastos / Agregar gasto nuevo</h3>
 </div>
-<form class="card p-5">
+<form class="card p-2">
 	<div class="mb-3">
 		<div class="container">
 			{$agregargas}
