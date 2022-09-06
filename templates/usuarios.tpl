@@ -18,7 +18,7 @@
     </tr>
   </thead>
   <tbody>
-{foreach $t as $user}
+{foreach $u as $user}
     <tr>
       <td>{$user.id}</td>
       <td>{$user.nombre}</td>
@@ -49,5 +49,4 @@
 
 </script>
 
-<!-- /Contenido -->
 {include file="pie2.tpl"}
