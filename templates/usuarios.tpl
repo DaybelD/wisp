@@ -5,7 +5,7 @@
     <i class="bi bi-person-plus"></i> Agregar
   </a>
 </div>
-
+<!-- ARNOLDO -->
 <div class="table-responsive">
 <table class="table" id="usuarios">
   <thead>
