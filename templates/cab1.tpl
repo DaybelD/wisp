@@ -2,18 +2,16 @@
 <html class="h-100">
   <head>
     <meta charset="utf-8">
-    <meta name="title" content="Inspector">
-    <meta name="description" content="Datos recabados de los mbilling">
-    <meta name="keywords" content="mbilling">
+    <meta name="title" content="WISP">
+    <meta name="description" content="Programa WISP">
+    <meta name="keywords" content="WISP">
     <meta name="robots" content="noindex, nofollow">
     <meta name="language" content="Spanish">
     <meta name="author" content="3valtech Inc.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/bticons/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/jquery.dataTables.min.js"></script>
+    
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -23,4 +21,5 @@
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
     <title>{$titulo}</title>
+    {$cab|default:''}
   </head>

@@ -1,5 +1,6 @@
 <?php
 require_once 'configs/debug.php';
+require_once 'funciones.php';
 $CFG = parse_ini_file('./configs/config.php');
 require_once 'configs/mypdo.php';
 $pdo = new myPDO($CFG['host'], $CFG['bd'], $CFG['user'], $CFG['pass']);

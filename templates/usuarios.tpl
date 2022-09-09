@@ -1,5 +1,4 @@
 {include file="cab2.tpl" titulo="Usuarios"}
-
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-3">
   <h3>Usuarios</h3>
   <a class="btn btn-outline-light" href="agregarusuario.php" role="button" title="Agregar usuario">
@@ -40,27 +39,5 @@
   </tbody>
 </table>
 </div>
-
-<script>
-  
-$(document).ready(function () {
-    $('#usuarios').DataTable({
-            'language': {
-              'lengthMenu': 'Mostrar _MENU_ registros por pagina',
-              'zeroRecords': 'No se encontaron resultados',
-              'info': 'Mostrar pagina _PAGE_ de _PAGES_',
-              'infoEmpty': 'No records available',
-              'search': 'Buscar',
-              'paginate': {
-                'next': 'Próximo',
-                'previous': 'Anterior'
-              }
-            }
-
-    });
-});
-
-</script>
-
 
 {include file="pie2.tpl"}

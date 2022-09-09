@@ -34,11 +34,8 @@
 </div>
 
 <script>
-  
-  var tabla= document.querySelector("#clientes");
-
-  var dataTable = new DataTable(tabla);
-
+var tabla= document.querySelector("#clientes");
+var dataTable = new DataTable(tabla);
 </script>
 
 <!-- /Contenido -->
