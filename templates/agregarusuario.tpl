@@ -6,6 +6,7 @@
 	<div class="mb-3">
 		<div class="container">
 			{$agregaruser}
+				<input type='button' value='Atras' onClick='history.go(-1);' class='btn btn-primary btn-sm'>
 		</div>
 	</div>
 </form>

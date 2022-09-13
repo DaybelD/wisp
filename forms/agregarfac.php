@@ -11,7 +11,7 @@ $clientes = array(
 );
 $agregarfac-> selectField('Cliente', 'clientes', $clientes, FH_STRING, "form-select-sm");
 $productos = array(
-    ''             => '-- Select --',
+    ''           => '-- Select --',
     '01'         => '01',
     '02'         => '02',
 

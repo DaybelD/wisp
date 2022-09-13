@@ -2,7 +2,7 @@
 
 $modificaruser = new FormHandler('', '');
 
-$modificaruser->textField('Usuario', 'id', FH_STRING, '', 'placeholder="Usuario"');
+$modificaruser->textField('Usuario', 'id', FH_STRING, '', 'placeholder="Usuario" disabled');
 
 $modificaruser->textField('Nombre', 'nombre', FH_STRING, '', 'placeholder="Nombre"');
 
