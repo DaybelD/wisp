@@ -1,10 +1,10 @@
 {
     "processing": "Procesando...",
-    "lengthMenu": "Ver _MENU_ registros",
+    "lengthMenu": "Ver _MENU_ ítems",
     "zeroRecords": "No se encontraron resultados",
     "emptyTable": "Ningún dato disponible en esta tabla",
-    "infoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
-    "infoFiltered": "(filtrado de un total de _MAX_ registros)",
+    "infoEmpty": "Mostrando ítems del 0 al 0 de un total de 0 ítems",
+    "infoFiltered": "(filtrado de un total de _MAX_ ítems)",
     "search": "Buscar:",
     "infoThousands": ",",
     "loadingRecords": "Cargando...",
@@ -211,7 +211,7 @@
             "noMulti": "Este registro puede ser editado individualmente, pero no como parte de un grupo."
         }
     },
-    "info": "Mostrando _START_ a _END_ de _TOTAL_ registros",
+    "info": "Mostrando _START_ a _END_ de _TOTAL_ ítems",
     "stateRestore": {
         "creationModal": {
             "button": "Crear",

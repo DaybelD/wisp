@@ -81,6 +81,10 @@ class myPDO {
 		return $this->exe($sql, 1, $valores, $tipo);
 	}
 
+	function sql2row(string $sql, $valores = [], $tipo = []) {
+		return $this->exe($sql, 2, $valores, $tipo);
+	}
+
 /**
  * Ejecuta la instrucción sql y devuelve un valor
  * @param  string $sql     Instrucción
@@ -107,5 +111,17 @@ class myPDO {
 			$salida[$z[0]] = $z[1];
 		}
 		return $salida;
+	}
+
+	/**
+	 * Devuelve los valores del campo de tipo ENUM dado
+	 * @param  string $tabla Nombre de la tabla donde se encuentra el campo ENUM
+	 * @param  string $campo El campo de tipo ENUM
+	 * @return Array        Array asociativo con los valores del campo tipo ENUM
+	 */
+	function enum(string $tabla, string $campo) {
+		$niveles = $this->sql2array("show columns from {$tabla} where Field='{$campo}'");
+		$niveles = explode('\',\'', substr($niveles[0]['Type'], 6, -2));
+		return array_combine($niveles, $niveles);
 	}
 }

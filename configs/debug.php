@@ -11,6 +11,8 @@ function ver($v, $sep = 0) {
 }
 
 function vq($d) {
+	echo '<pre>';
 	ver($d);
+	echo '</pre>';
 	exit;
 }
