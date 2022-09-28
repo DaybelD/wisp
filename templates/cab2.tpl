@@ -2,4 +2,4 @@
 <body class="d-flex flex-column h-100">
 {include file="menuppal.tpl"}
     <main class="flex-shrink-0">
-      <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <div class="col-lg-8 mx-auto p-1 py-md-1">

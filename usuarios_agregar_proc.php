@@ -7,12 +7,12 @@ if ($_POST['clave'] != $_POST['confirmeclave']) {
 	';
 }
 
-$sql = 'INSERT INTO usuarios (id, clave, nombre, nivel) VALUES (?, ?, ?, ?)';
+$sql = 'INSERT INTO usuarios (id, clave, nombre, nivel, estatus) VALUES (?, ?, ?, ?, ?)';
 
 $pdo->exe($sql, myPDO_RET_RES, [
-	$_POST['id'], password_hash($_POST['clave'], PASSWORD_DEFAULT), $_POST['nombre'], $_POST['nivel']],
+	$_POST['id'], password_hash($_POST['clave'], PASSWORD_DEFAULT), $_POST['nombre'], $_POST['nivel'], $_POST['estatus']],
 	[
-		'STR', 'STR', 'STR', 'STR',
+		'STR', 'STR', 'STR', 'STR', 'STR',
 	]
 );
 ir('usuarios.php');

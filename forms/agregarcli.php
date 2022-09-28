@@ -8,7 +8,6 @@ $agregarcli->textField('Apellido', 'apellido', FH_STRING, '', 'placeholder="Apel
 $agregarcli->textField('DNI', 'dni', FH_STRING, '', 'placeholder="Documento de identidad"');
 $agregarcli->textField('E-mail', 'email', FH_STRING, '', 'placeholder="Correo electrónico"');
 $agregarcli->textArea('Dirección', 'direccion', FH_STRING, '', '');
-$agregarcli->textArea('Dirección', 'direccion', FH_STRING, '', '');
 
 $ciudades = $pdo->sql2options("SELECT id, nombre FROM ciudades ORDER BY nombre ASC");
 $agregarcli->selectField('Ciudades', 'ciudades', $ciudades, FH_STRING, "form-select-sm", 'city');

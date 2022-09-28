@@ -1,8 +1,12 @@
 {include file="cab2.tpl" titulo="Clientes"}
-
-<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
-  <h3>Clientes</h3>
-  <a class="btn btn-outline-light" href="agregarcliente.php" role="button" title="Agregar contrato">
+<div class="d-flex flex-row justify-content-between text-white p-2 mb-3">
+    <nav>
+    <ol class="breadcrumb text-dark rounded">
+        <li class="breadcrumb-item"><a href="principal.php">Inicio</a></li>
+        <li class="breadcrumb-item">Usuarios</li>
+      </ol>
+    </nav>
+  <a class="btn btn-outline-dark" href="agregarusuario.php" role="button" title="Agregar usuario">
     <i class="bi bi-person-plus"></i> Agregar
   </a>
 </div>
@@ -22,10 +26,14 @@
 {foreach $d as $cli}
     <tr>
       <td>{$cli.nombre}</td>
-      <td>{$cli.id}</td>
+      <td>{$cli.dni}</td>
       <td>{$cli.email}</td>
       <td>{$cli.telefono}</td>
-	  <td>{include file="acciones.tpl"}</td>
+	    <td>
+        <a class="btn btn-outline-dark btn-sm" href="modificarusuario.php?id={$user.id}" role="button" title="Modificar usuario">
+          <img src="images/pencil-square.svg" width="16" height="16">
+        </a>
+      </td>
     </tr>
 {/foreach}
     
@@ -33,10 +41,4 @@
 </table>
 </div>
 
-<script>
-var tabla= document.querySelector("#clientes");
-var dataTable = new DataTable(tabla);
-</script>
-
-<!-- /Contenido -->
 {include file="pie2.tpl"}

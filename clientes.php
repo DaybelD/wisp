@@ -1,7 +1,7 @@
 <?php
 require_once 'requires.php';
 
-$d = $pdo->sql2array('SELECT id, nombre, apellido, dni, email, CONCAT(telef1,\' / \', telef2) AS telefono FROM clientes LIMIT 25');
+$d = $pdo->sql2array('SELECT nombre, dni, email, CONCAT(telef1,\' / \', telef2) AS telefono FROM clientes');
 
 $smarty->assign('cab',
 	'<link rel="stylesheet" href="./vendor/datatables/css/dataTables.bootstrap.min.css">

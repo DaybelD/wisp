@@ -1,9 +1,13 @@
 {include file="cab2.tpl" titulo="Contratos"}
-
-<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
-  <h3>Contratos</h3>
-  <a class="btn btn-outline-light" href="agregarcontrato.php" role="button" title="Agregar contrato">
-    <i class="bi bi-plus-lg"></i> Agregar
+<div class="d-flex flex-row justify-content-between text-white p-2 mb-3">
+    <nav>
+    <ol class="breadcrumb text-dark rounded">
+        <li class="breadcrumb-item"><a href="principal.php">Inicio</a></li>
+        <li class="breadcrumb-item">Contratos</li>
+      </ol>
+    </nav>
+  <a class="btn btn-outline-dark" href="contratos_agregar.php" role="button" title="Agregar contrato">
+    <i class="bi bi-person-plus"></i> Agregar
   </a>
 </div>
 
@@ -33,15 +37,5 @@
   </tbody>
 </table>
 </div>
-
-<script>
-  
-  var tabla= document.querySelector("#contratos");
-
-  var dataTable = new DataTable(tabla);
-
-</script>
-
-
 
 {include file="pie2.tpl"}

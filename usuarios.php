@@ -1,7 +1,7 @@
 <?php
 require_once 'requires.php';
 
-$u = $pdo->sql2array('SELECT id, clave, nombre, nivel FROM usuarios');
+$u = $pdo->sql2array('SELECT id, clave, nombre, nivel, estatus FROM usuarios');
 
 $smarty->assign('cab',
 	'<link rel="stylesheet" href="./vendor/datatables/css/dataTables.bootstrap.min.css">
