@@ -1,13 +1,18 @@
 {include file="cab2.tpl" titulo="Planes"}
 
-<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
-  <h3>Servicios / Planes</h3>
-  <a class="btn btn-outline-light" href="agregarplanes.php" role="button" title="Agregar contrato">
-    <i class="bi bi-plus-lg"></i> Agregar
+<div class="d-flex flex-row justify-content-between text-white p-2 mb-3">
+    <nav>
+    <ol class="breadcrumb text-dark rounded">
+        <li class="breadcrumb-item"><a href="principal.php">Inicio</a></li>
+        <li class="breadcrumb-item">Planes</li>
+      </ol>
+    </nav>
+  <a class="btn btn-outline-dark" href="planes_agregar.php" role="button" title="Agregar contrato">
+    <i class="bi bi-person-plus"></i> Agregar
   </a>
 </div>
 <div class="table-responsive">
-<table class="table">
+<table class="table" id="tabla">
   <thead>
     <tr>
       <th scope="col"></th>
@@ -30,36 +35,6 @@
       <td>Velocidad estable</td>
       <td>5$</td>
   	  <td>{include file="acciones.tpl"}</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Mark</td>
-      <td>Advanced</td>
-      <td>12/04/2021</td>
-      <td>...</td>
-      <td>Zona #4</td>
-      <td>...</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>   
-     <tr>
-      <th scope="row">3</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>25/03/2022</td>
-      <td>...</td>
-      <td>Zona #1</td>
-      <td>...</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>
-     <tr>
-      <th scope="row">4</th>
-      <td>Mark</td>
-      <td>Mega PLUS</td>
-      <td>25/03/2022</td>
-      <td>...</td>
-      <td>Zona #1</td>
-      <td>...</td>
-      <td>{include file="acciones.tpl"}</td>
     </tr>
   </tbody>
 </table>

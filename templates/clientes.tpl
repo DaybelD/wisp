@@ -6,13 +6,13 @@
         <li class="breadcrumb-item">Usuarios</li>
       </ol>
     </nav>
-  <a class="btn btn-outline-dark" href="agregarusuario.php" role="button" title="Agregar usuario">
+  <a class="btn btn-outline-dark" href="clientes_agregar.php" role="button" title="Agregar usuario">
     <i class="bi bi-person-plus"></i> Agregar
   </a>
 </div>
 
 <div class="table-responsive">
-<table class="table" id="clientes">
+<table class="table" id="tabla">
   <thead>
     <tr>
       <th scope="col">Nombre</th>
@@ -30,7 +30,7 @@
       <td>{$cli.email}</td>
       <td>{$cli.telefono}</td>
 	    <td>
-        <a class="btn btn-outline-dark btn-sm" href="modificarusuario.php?id={$user.id}" role="button" title="Modificar usuario">
+        <a class="btn btn-outline-dark btn-sm" href="clientes_modificar.php?id={$user.id}" role="button" title="Modificar cliente">
           <img src="images/pencil-square.svg" width="16" height="16">
         </a>
       </td>

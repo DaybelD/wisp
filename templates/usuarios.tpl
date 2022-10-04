@@ -12,7 +12,7 @@
 </div>
 <!-- ARNOLDO -->
 <div class="table-responsive">
-<table class="table" id="usuarios">
+<table class="table" id="tabla">
   <thead>
     <tr>
       <th scope="col">Usuario</th>

@@ -1,14 +1,15 @@
 <?php
 
-$agregarcontr = new FormHandler('', '');
+$agregarcontr = new FormHandler('frm_contratos', 'contratos_agregar_proc.php');
 
+$agregarcontr->textField('Nro. Contrato', 'id');
 $clientes = array(
     ''             => '-- Select --',
-    'mark'         => 'Mark Torres',
+    'mark'         => 'Mark',
     'luis'         => 'Luis Hernandez',
 
 );
-$agregarcontr-> selectField('Cliente', 'clientes', $clientes, FH_STRING, "form-select-sm");
+$agregarcontr-> selectField('Cliente', 'cliente_id', $clientes, FH_STRING, "form-select-sm");
 
 $planes = array(
     ''             => '-- Select --',
@@ -16,15 +17,8 @@ $planes = array(
     'advan'        => 'Advanced',
 
 );
-$agregarcontr-> selectField('Plan', 'planes', $planes, FH_STRING, "form-select-sm");
+$agregarcontr-> selectField('Plan', 'plan_id', $planes, FH_STRING, "form-select-sm");
 
-$zonas = array(
-    ''             => '-- Select --',
-    'zon1'         => 'Zona #01',
-    'zon2'         => 'Zona #02',
-
-);
-$agregarcontr-> selectField('Zona', 'zonas', $zonas, null, "form-select-sm", null);
 
 $instalaciones = array(
     ''             => '-- Select --',
@@ -32,7 +26,7 @@ $instalaciones = array(
     'insta2'         => '2589',
 
 );
-$agregarcontr-> selectField('Instalacion realizada', 'instalaciones', $instalaciones, null, "form-select-sm", null);
+$agregarcontr-> selectField('Instalacion realizada', 'instal_id', $instalaciones, null, "form-select-sm", null);
 
 $personal = array(
     ''             => '-- Select --',
@@ -40,9 +34,16 @@ $personal = array(
     'instaper2'         => 'Equipo 02',
 
 );
-$agregarcontr-> selectField('Personal encargado de instalacion', 'personal', $personal, null, "form-select-sm", null);
+$agregarcontr-> selectField('Personal encargado de instalacion', 'personal_id', $personal, null, "form-select-sm", null);
 
 $agregarcontr->dateTextField('Fecha de inicio del contrato', 'fecha', FH_STRING);
+$zonas = array(
+    ''             => '-- Select --',
+    'zon1'         => 'Zona #01',
+    'zon2'         => 'Zona #02',
+
+);
+$agregarcontr-> selectField('Zona', 'zona_id', $zonas, null, "form-select-sm", null);
 $agregarcontr->textArea('Observaciones', 'observaciones', FH_STRING, '', '');
 
 $agregarcontr->submitButton('Agregar contrato', 'btn_continuar', 'btn-primary btn-sm');

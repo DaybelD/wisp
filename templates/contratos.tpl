@@ -12,7 +12,7 @@
 </div>
 
 <div class="table-responsive">
-<table class="table" id="contratos">
+<table class="table" id="tabla">
   <thead>
     <tr>
       <th scope="col">Nro.</th>
@@ -31,7 +31,11 @@
       <td>{$contr.plan_id}</td>
       <td>{$contr.fecha}</td>
       <td>{$contr.zona_id}</td>
-  	  <td>{include file="acciones.tpl"}</td>
+  	  <td>
+          <a class="btn btn-outline-dark btn-sm" href="contratos_modificar.php?id={$user.id}" role="button" title="Modificar cliente">
+          <img src="images/pencil-square.svg" width="16" height="16">
+        </a>
+      </td>
     </tr>
     {/foreach}
   </tbody>

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#usuarios').DataTable({
+    $('#tabla').DataTable({
         'language':{
             url:"./vendor/datatables/spanish.json", 
         }

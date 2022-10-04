@@ -1,6 +1,6 @@
 <?php
 
-$agregarinstal = new FormHandler('', '');
+$agregarinstal = new FormHandler('frm_instalaciones_agregar', 'instalaciones_agregar_proc.php');
 
 $agregarinstal-> textField('Numero', 'id');
 
@@ -10,15 +10,16 @@ $clientes = array(
     'luis'         => 'Luis Hernandez',
 
 );
-$agregarinstal-> selectField('Cliente', 'clientes', $clientes, FH_STRING, "form-select-sm");
+$agregarinstal-> selectField('Cliente', 'cliente_id', $clientes, FH_STRING, "form-select-sm");
 
+$agregarinstal->dateTextField('Fecha de instalacion', 'fecha', FH_STRING);
 $productos = array(
     ''             => '-- Select --',
     '01'         => '01',
     '02'         => '02',
 
 );
-$agregarinstal-> selectField('Productos', 'productos', $productos, FH_STRING, "form-select-sm", null);
+$agregarinstal-> selectField('Productos', 'producto_id', $productos, FH_STRING, "form-select-sm", null);
 
 $routers = array(
     ''             => '-- Select --',
@@ -26,7 +27,7 @@ $routers = array(
     '02'         => '02',
 
 );
-$agregarinstal-> selectField('Routers', 'routers', $routers, FH_STRING, "form-select-sm", null);
+$agregarinstal-> selectField('Routers', 'router_id', $routers, FH_STRING, "form-select-sm", null);
 
 $personal = array(
     ''             => '-- Select --',
@@ -34,9 +35,8 @@ $personal = array(
     'instaper2'         => 'Equipo 02',
 
 );
-$agregarinstal-> selectField('Personal encargado de instalacion', 'personal', $personal, null, "form-select-sm", null);
+$agregarinstal-> selectField('Personal encargado de instalacion', 'personal_id', $personal, null, "form-select-sm", null);
 
-$agregarinstal->dateTextField('Fecha de instalacion', 'fecha', FH_STRING);
 
 $agregarinstal->submitButton('Agregar instalacion', 'btn_continuar', 'btn-primary btn-sm');
 

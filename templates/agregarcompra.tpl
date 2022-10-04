@@ -1,4 +1,4 @@
-{include file="cab2.tpl" titulo="Agregar cliente"}
+{include file="cab2.tpl" titulo="Agregar compra"}
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
   <h3> Finanzas / Compras / Agregar compra nueva</h3>
 </div>
