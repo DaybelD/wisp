@@ -15,8 +15,8 @@
 <table class="table" id="tabla">
   <thead>
     <tr>
+      <th scope="col">CI</th>
       <th scope="col">Nombre</th>
-      <th scope="col">DNI</th>
       <th scope="col">E-mail</th>
       <th scope="col">Telefóno</th>
       <th scope="col">Acciones</th>
@@ -25,12 +25,12 @@
   <tbody>
 {foreach $d as $cli}
     <tr>
+      <td>{$cli.id}</td>
       <td>{$cli.nombre}</td>
-      <td>{$cli.dni}</td>
       <td>{$cli.email}</td>
       <td>{$cli.telefono}</td>
 	    <td>
-        <a class="btn btn-outline-dark btn-sm" href="clientes_modificar.php?id={$user.id}" role="button" title="Modificar cliente">
+        <a class="btn btn-outline-dark btn-sm" href="clientes_modificar.php?id={$cli.id}" role="button" title="Modificar cliente">
           <img src="images/pencil-square.svg" width="16" height="16">
         </a>
       </td>
