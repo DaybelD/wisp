@@ -2,10 +2,10 @@
 
 $agregarcli = new FormHandler('frm_clientes_agregar', 'clientes_agregar_proc.php');
 
+$agregarcli->textField('C.I.', 'id', FH_STRING, '', 'placeholder="Documento de identidad"');
 $agregarcli->textField('Nombre', 'nombre', FH_STRING, '', 'placeholder="Nombre"');
 
 $agregarcli->textField('Apellido', 'apellido', FH_STRING, '', 'placeholder="Apellido"');
-$agregarcli->textField('DNI', 'dni', FH_STRING, '', 'placeholder="Documento de identidad"');
 $agregarcli->textField('E-mail', 'email', FH_STRING, '', 'placeholder="Correo electrónico"');
 $agregarcli->textArea('Dirección', 'direccion', FH_STRING, '', '');
 
