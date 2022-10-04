@@ -7,7 +7,7 @@
       <li class="breadcrumb-item">Facturas</li>
     </ol>
   </nav>
-  <a class="btn btn-outline-dark" href="agregarcompra.php" role="button" title="Agregar contrato">
+  <a class="btn btn-outline-dark" href="facturas_agregar.php" role="button" title="Agregar">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>

@@ -1,13 +1,12 @@
 {include file="cab2.tpl" titulo="Compras"}
-
-<div class="d-flex flex-row justify-content-between text-white p-2 mb-3">
+<div class="d-flex flex-row justify-content-between text-white p-2 mb-3" style="background-color: #dce9f5">
   <nav>
     <ol class="breadcrumb text-dark rounded">
       <li class="breadcrumb-item"><a href="principal.php">Inicio</a></li>
       <li class="breadcrumb-item">Compras</li>
     </ol>
   </nav>
-  <a class="btn btn-outline-dark" href="agregarcompra.php" role="button" title="Agregar contrato">
+  <a class="btn btn-outline-dark" href="compras_agregar.php" role="button" title="Agregar contrato">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>

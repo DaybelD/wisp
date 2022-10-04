@@ -2,7 +2,7 @@
 
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
   <h3> Almacén / Lista de productos</h3>
-  <a class="btn btn-outline-light" href="agregarproducto.php" role="button" title="Agregar contrato">
+  <a class="btn btn-outline-light" href="productos_agregar.php" role="button" title="Agregar contrato">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>

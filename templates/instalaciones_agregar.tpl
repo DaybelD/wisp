@@ -9,7 +9,9 @@
 <div class="card p-2">
 	<div class="mb-3">
 		<div class="container">
+			<div class="col-lg-4 offset-lg-4">
 			{$agregarinstal}
+			</div>
 		</div>
 	</div>
 </div>

@@ -2,7 +2,7 @@
 
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
   <h3>Finanzas / Formas de pago</h3>
-  <a class="btn btn-outline-light" href="agregarformapago.php" role="button" title="Agregar contrato">
+  <a class="btn btn-outline-light" href="formapagos_agregar.php" role="button" title="Agregar contrato">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>

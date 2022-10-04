@@ -2,7 +2,7 @@
 
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
   <h3>Almacén / Lista de routers</h3>
-  <a class="btn btn-outline-light" href="agregarrouters.php" role="button" title="Agregar contrato">
+  <a class="btn btn-outline-light" href="routers_agregar.php" role="button" title="Agregar contrato">
     <i class="bi bi-plus-lg"></i> Agregar
   </a>
 </div>

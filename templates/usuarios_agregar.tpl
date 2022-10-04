@@ -7,8 +7,9 @@
 			</ol>
 		</nav>
 <div class="card text-bg-primary mb-3 p-4">
-  
-{$agregaruser}
+	<div class="col-lg-4 offset-lg-4">
+  {$agregaruser}
+</div>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-3">
   <h3>Personal</h3>
-  <a class="btn btn-outline-light" href="agregarpersonal.php" role="button" title="Agregar personal">
+  <a class="btn btn-outline-light" href="personal_agregar.php" role="button" title="Agregar personal">
     <i class="bi bi-person-plus"></i> Agregar
   </a>
 </div>
