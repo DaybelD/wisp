@@ -1,5 +1,7 @@
 <?php
 require_once 'requires.php';
+session_start();
+verificar_session();
 
 $u = $pdo->sql2array('SELECT id, clave, nombre, nivel, estatus FROM usuarios');
 
