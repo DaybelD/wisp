@@ -1,6 +1,6 @@
 <?php
 require_once 'requires.php';
-
+$modulo = 'Finanzas_Compras';
 $smarty->assign('cab',
 	'<link rel="stylesheet" href="./vendor/datatables/css/dataTables.bootstrap.min.css">
 	<link rel="stylesheet" href="./vendor/datatables/css/dataTables.bootstrap5.min.css">

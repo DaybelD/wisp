@@ -1,6 +1,6 @@
 <?php
 require_once 'requires.php';
-
+$modulo = 'Contratos';
 $e = $pdo->sql2array('SELECT id, cliente_id, plan_id, fecha, zona_id FROM contratos');
 
 $smarty->assign('cab',

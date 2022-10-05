@@ -9,6 +9,6 @@
       {$frm_login}
     <br>
     </main>
-{include file="footer.tpl"}
+{include file="pie_inicio.tpl"}
    </body>
 </html>

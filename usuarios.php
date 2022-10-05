@@ -1,5 +1,6 @@
 <?php
 require_once 'requires.php';
+$modulo = 'Ajustes_Usuarios';
 session_start();
 verificar_session();
 

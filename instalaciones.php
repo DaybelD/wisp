@@ -1,5 +1,6 @@
 <?php
 require_once 'requires.php';
+$modulo = 'Servicios_Instalaciones';
 $i = $pdo->sql2array('SELECT cliente_id, fecha, personal_id FROM instalaciones');
 
 $smarty->assign('cab',

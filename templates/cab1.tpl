@@ -22,4 +22,5 @@
     <meta name="theme-color" content="#ffffff">
     <title>{$titulo}</title>
     {$cab|default:''}
+    <link href="css/estilo.css" rel="stylesheet">
   </head>

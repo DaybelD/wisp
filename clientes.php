@@ -1,5 +1,6 @@
 <?php
 require_once 'requires.php';
+$modulo = 'Clientes';
 
 $d = $pdo->sql2array('SELECT id, nombre, email, CONCAT(telef1,\' / \', telef2) AS telefono FROM clientes');
 
