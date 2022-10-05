@@ -1,7 +1,10 @@
 {include file="cab2.tpl" titulo="Agregar cliente"}
-<div class="d-flex flex-row justify-content-between text-white mb-1" style="background-color: #8a8887">	
-	AGREGAR CLIENTE
-	</div>
+<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-3">
+  <h3>Personal</h3>
+  <a class="btn btn-outline-light" href="personal_agregar.php" role="button" title="Agregar personal">
+  <i class="bi bi-person-plus"></i> Agregar
+  </a>
+</div>
 	<nav>
 		<ol class="breadcrumb">
 				<li class="breadcrumb-item"><a href="principal.php">Inicio</a></li>

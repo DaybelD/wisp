@@ -25,5 +25,4 @@ $privilegios = array_values($pdo->enum('usuarios', 'nivel'));
 
 $smarty->assign('modulos', $modulos);
 $smarty->assign('privilegios', $privilegios);
-$smarty->assign('npriv', count($privilegios));
 $smarty->display('privilegios.tpl');

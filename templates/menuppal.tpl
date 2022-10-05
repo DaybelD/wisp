@@ -1,6 +1,6 @@
 <!--Inicio de la barra de navegacion-->
-    <nav  id="inicio" class="navbar navbar-expand-sm navbar-light"  style="background-color: #dce9f5;" aria-label="Third navbar example">
-      <div class="container-md">
+    <nav  id="inicio" class="navbar navbar-expand-lg navbar-light"  style="background-color: #dce9f5;" aria-label="Third navbar example">
+      <div class="container-fluid">
         <a href="principal.php">
         <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
