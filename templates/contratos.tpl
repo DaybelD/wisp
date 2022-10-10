@@ -1,16 +1,18 @@
 {include file="cab2.tpl" titulo="Contratos"}
-<div class="d-flex flex-row justify-content-between text-white p-2 mb-3">
+<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-0">
+  <h3>CONTRATOS</h3>
+  <a class="btn btn-outline-light" href="contratos_agregar.php" role="button" title="Agregar usuario">
+    <i class="bi bi-person-plus"></i> Agregar
+  </a>
+</div>
+<div class="d-flex flex-row justify-content-between text-white ps-2">
     <nav>
     <ol class="breadcrumb text-dark rounded">
         <li class="breadcrumb-item"><a href="principal.php">Inicio</a></li>
         <li class="breadcrumb-item">Contratos</li>
       </ol>
     </nav>
-  <a class="btn btn-outline-dark" href="contratos_agregar.php" role="button" title="Agregar contrato">
-    <i class="bi bi-person-plus"></i> Agregar
-  </a>
 </div>
-
 <div class="table-responsive">
 <table class="table" id="tabla">
   <thead>
