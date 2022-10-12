@@ -9,7 +9,7 @@ $modificaruser->textField('Nombre', 'nombre', FH_STRING, '', 'placeholder="Nombr
 $modificaruser->selectField('Nivel', 'nivel', $pdo->enum('usuarios', 'nivel'), null, 'form-select-sm', null);
 $modificaruser->selectField('Estatus', 'estatus', $pdo->enum('usuarios', 'estatus'), null, 'form-select-sm', null);
 
-$modificaruser->submitButton('Modificar', 'btn_continuar', 'btn-primary btn-sm');
+$modificaruser->submitButton('Modificar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $datos = $pdo->sql2row('SELECT nombre, nivel, estatus from usuarios where id = ?', [$id], ['STR']);
 $modificaruser->setValue('id', $id);

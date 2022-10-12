@@ -10,6 +10,6 @@ $agregarproduc->textField('Modelo', 'modelo', FH_STRING, '', 'placeholder="Model
 $agregarproduc->textArea('Descripción', 'descripcion', FH_STRING, '', 'placeholder="Descripción breve del producto"');
 $agregarproduc->textField('Precio', 'precio');
 $agregarproduc->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
-$agregarproduc->submitButton('Agregar producto', 'btn_continuar', 'btn-primary btn-sm');
+$agregarproduc->submitButton('Agregar producto', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $agregarproduc = $agregarproduc->flush(true);

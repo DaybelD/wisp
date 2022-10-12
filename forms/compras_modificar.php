@@ -23,6 +23,6 @@ $frm_pago = array(
 );
 $modcompra-> selectField('Tipo de compra', 'tipo_pago', $frm_pago, FH_STRING, "form-select-sm");
 
-$modcompra->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+$modcompra->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modcompra = $modcompra->flush(true);

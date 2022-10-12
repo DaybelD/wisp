@@ -30,6 +30,6 @@ $frm_pago = array(
 );
 $agregarpag-> selectField('Tipo de pago', 'tipo_pago', $frm_pago, FH_STRING, "form-select-sm");
 
-$agregarpag->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+$agregarpag->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $agregarpag = $agregarpag->flush(true);

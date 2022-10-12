@@ -23,6 +23,6 @@ $frm_pago = array(
 );
 $modgasto-> selectField('Tipo de gasto', 'tipo_pago', $frm_pago, FH_STRING, "form-select-sm");
 
-$modgasto->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+$modgasto->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modgasto = $modgasto->flush(true);

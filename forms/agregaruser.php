@@ -8,5 +8,7 @@ $agregaruser->checkPassword("clave", "confirmeclave");
 $agregaruser->textField('Nombre', 'nombre', FH_STRING, '', 'placeholder="Nombre" required');
 $agregaruser->selectField('Nivel', 'nivel', $pdo->enum('usuarios', 'nivel'), null, 'form-select-sm', null, null, null, 'required');
 $agregaruser->selectField('Estatus', 'estatus', $pdo->enum('usuarios', 'estatus'), null, 'form-select-sm', null, null, null, 'required');
-$agregaruser->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+
+$agregaruser->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm mt-3');
+
 $agregaruser = $agregaruser->flush(true);

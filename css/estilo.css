@@ -1,3 +1,8 @@
 .breadcrumb *{
   font-size: small;
 }
+
+#tbl_privilegios{
+  width: inherit;
+  margin: auto;
+}

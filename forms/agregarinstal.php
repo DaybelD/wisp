@@ -4,12 +4,8 @@ $agregarinstal = new FormHandler('frm_instalaciones_agregar', 'instalaciones_agr
 
 $agregarinstal-> textField('Numero', 'id');
 
-$clientes = array(
-    ''             => '-- Select --',
-    'mark'         => 'Mark Torres',
-    'luis'         => 'Luis Hernandez',
 
-);
+$clientes = $pdo->sql2options("SELECT id, nombre FROM clientes ORDER BY nombre ASC");
 $agregarinstal-> selectField('Cliente', 'cliente_id', $clientes, FH_STRING, "form-select-sm");
 
 $agregarinstal->dateTextField('Fecha de instalacion', 'fecha', FH_STRING);
@@ -38,6 +34,6 @@ $personal = array(
 $agregarinstal-> selectField('Personal encargado de instalacion', 'personal_id', $personal, null, "form-select-sm", null);
 
 
-$agregarinstal->submitButton('Agregar instalacion', 'btn_continuar', 'btn-primary btn-sm');
+$agregarinstal->submitButton('Agregar instalacion', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $agregarinstal = $agregarinstal->flush(true);

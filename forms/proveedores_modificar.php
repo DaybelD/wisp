@@ -25,6 +25,6 @@ $contribuyente = array(
 $modprov-> selectField('Contribuyente especial', 'contribuyente', $contribuyente, FH_STRING, "form-select-sm");
 $modprov->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
 
-$modprov->submitButton('Agregar proveedor', 'btn_continuar', 'btn-primary btn-sm');
+$modprov->submitButton('Agregar proveedor', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modprov = $modprov->flush(true);

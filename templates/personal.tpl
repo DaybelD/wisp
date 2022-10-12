@@ -18,7 +18,6 @@
   <thead>
     <tr>
       <th scope="col">Usuario</th>
-      <th scope="col">Clave</th>
       <th scope="col">Nombre</th>
       <th scope="col">Acciones</th>
     </tr>
@@ -27,7 +26,6 @@
    {foreach $e as $pers}
     <tr>
       <td>{$pers.id}</td>
-      <td>{$pers.clave}</td>
       <td>{$pers.nombre}</td>
   	  <td>
        <a class="btn btn-outline-dark btn-sm" href="personal_modificar.php" role="button" title="Modificar">

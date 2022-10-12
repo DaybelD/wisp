@@ -11,21 +11,21 @@ $modcli->textField('E-mail', 'email', FH_STRING, '', 'placeholder="Correo electr
 $modcli->textArea('Dirección', 'direccion', FH_STRING, '', '');
 
 $ciudades = $pdo->sql2options("SELECT id, nombre FROM ciudades ORDER BY nombre ASC");
-$modcli->selectField('Ciudades', 'id_ciudad', $ciudades, FH_STRING, "form-select-sm", 'city');
+$modcli->selectField('Ciudades', 'ciudad_id', $ciudades, FH_STRING, "form-select-sm", 'city');
 
 $modcli->textField('Codigo postal', 'postal', FH_STRING);
 $modcli->textField('Télefono', 'telef1', FH_STRING);
 $modcli->textField('Móvil', 'telef2', FH_STRING);
 
-$modcli->submitButton('Modificar', 'btn_continuar', 'btn-primary btn-sm');
+$modcli->submitButton('Modificar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
-$datos = $pdo->sql2row('SELECT nombre, apellido, email, direccion, id_ciudad, postal, telef1, telef2 from clientes where id = ?', [$id], ['STR']);
+$datos = $pdo->sql2row('SELECT nombre, apellido, email, direccion, ciudad_id, postal, telef1, telef2 from clientes where id = ?', [$id], ['STR']);
 $modcli->setValue('id', $id);
 $modcli->setValue('nombre', $datos['nombre']);
 $modcli->setValue('apellido', $datos['apellido']);
 $modcli->setValue('email', $datos['email']);
 $modcli->setValue('direccion', $datos['direccion']);
-$modcli->setValue('id_ciudad', $datos['id_ciudad']);
+$modcli->setValue('ciudad_id', $datos['ciudad_id']);
 $modcli->setValue('postal', $datos['postal']);
 $modcli->setValue('telef1', $datos['telef1']);
 $modcli->setValue('telef2', $datos['telef2']);

@@ -10,6 +10,6 @@ $modproduc->textField('Modelo', 'modelo', FH_STRING, '', 'placeholder="Modelo"')
 $modproduc->textArea('Descripción', 'descripcion', FH_STRING, '', 'placeholder="Descripción breve del producto"');
 $modproduc->textField('Precio', 'precio');
 $modproduc->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
-$modproduc->submitButton('Modificar producto', 'btn_continuar', 'btn-primary btn-sm');
+$modproduc->submitButton('Modificar producto', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modproduc = $modproduc->flush(true);

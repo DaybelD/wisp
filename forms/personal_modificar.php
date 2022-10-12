@@ -28,6 +28,6 @@ $niveles = array(
 );
 $modpers-> selectField('Nivel de acceso', 'nivel', $niveles, FH_STRING, "form-select-sm", 'city');
 $modpers->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
-$modpers->submitButton('Agregar personal', 'btn_continuar', 'btn-primary btn-sm');
+$modpers->submitButton('Agregar personal', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modpers = $modpers->flush(true);

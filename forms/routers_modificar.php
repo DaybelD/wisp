@@ -27,6 +27,6 @@ $modrout->textField('Frecuencia', 'frecuencia');
 $modrout->textField('Tipo de router', 'tipo');
 $modrout->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
 
-$modrout->submitButton('Agregar router', 'btn_continuar', 'btn-primary btn-sm');
+$modrout->submitButton('Agregar router', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modrout = $modrout->flush(true);

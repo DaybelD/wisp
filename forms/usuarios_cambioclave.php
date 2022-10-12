@@ -7,7 +7,7 @@ $cambiarclave->passField('Clave actual', 'claveactual', FH_STRING, null, 'placeh
 $cambiarclave->passField('Nueva clave', 'clave', FH_STRING, null, 'placeholder="Clave" required');
 $cambiarclave->passField('Confirme la nueva clave', 'confirmeclave', FH_STRING, null, 'required');
 $cambiarclave->checkPassword('clave', 'confirmeclave');
-$cambiarclave->submitButton('Cambiar', 'btn_continuar', 'btn-primary btn-sm');
+$cambiarclave->submitButton('Cambiar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $cambiarclave->setValue('id', $id);
 

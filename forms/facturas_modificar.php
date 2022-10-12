@@ -36,6 +36,6 @@ $modfac->dateTextField('Fecha de facturación', 'fecha', FH_STRING);
 
 $modfac-> textField('Total', 'total');
 
-$modfac->submitButton('Agregar factura', 'btn_continuar', 'btn-primary btn-sm');
+$modfac->submitButton('Agregar factura', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modfac = $modfac->flush(true);

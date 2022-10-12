@@ -36,6 +36,6 @@ $agregarfac->dateTextField('Fecha de facturación', 'fecha', FH_STRING);
 
 $agregarfac-> textField('Total', 'total');
 
-$agregarfac->submitButton('Agregar factura', 'btn_continuar', 'btn-primary btn-sm');
+$agregarfac->submitButton('Agregar factura', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $agregarfac = $agregarfac->flush(true);

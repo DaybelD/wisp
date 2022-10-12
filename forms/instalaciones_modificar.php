@@ -38,6 +38,6 @@ $personal = array(
 $modinstal-> selectField('Personal encargado de instalacion', 'personal_id', $personal, null, "form-select-sm", null);
 
 
-$modinstal->submitButton('Agregar instalacion', 'btn_continuar', 'btn-primary btn-sm');
+$modinstal->submitButton('Agregar instalacion', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modinstal = $modinstal->flush(true);

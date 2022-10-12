@@ -23,6 +23,6 @@ $frm_pago = array(
 );
 $agregarcom-> selectField('Tipo de compra', 'tipo_pago', $frm_pago, FH_STRING, "form-select-sm");
 
-$agregarcom->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+$agregarcom->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $agregarcom = $agregarcom->flush(true);

@@ -23,6 +23,6 @@ $frm_pago = array(
 );
 $agregargas-> selectField('Tipo de gasto', 'tipo_pago', $frm_pago, FH_STRING, "form-select-sm");
 
-$agregargas->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+$agregargas->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $agregargas = $agregargas->flush(true);

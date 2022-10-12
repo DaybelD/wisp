@@ -30,7 +30,7 @@ $frm_pago = array(
 );
 $modpago-> selectField('Tipo de pago', 'tipo_pago', $frm_pago, FH_STRING, "form-select-sm");
 
-$modpago->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+$modpago->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modpago = $modpago
 ->flush(true);

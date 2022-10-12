@@ -14,6 +14,6 @@ $modplan-> textArea('Descripción', 'descripcion');
 
 $modplan-> textField('Recargo por mora', 'recargo');
 
-$modplan->submitButton('Agregar plan', 'btn_continuar', 'btn-primary btn-sm');
+$modplan->submitButton('Agregar plan', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modplan = $modplan->flush(true);

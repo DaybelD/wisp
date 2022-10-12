@@ -27,6 +27,6 @@ $agregarrout->textField('Frecuencia', 'frecuencia');
 $agregarrout->textField('Tipo de router', 'tipo');
 $agregarrout->dateTextField('Fecha de ingreso', 'fecha', FH_STRING);
 
-$agregarrout->submitButton('Agregar router', 'btn_continuar', 'btn-primary btn-sm');
+$agregarrout->submitButton('Agregar router', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $agregarrout = $agregarrout->flush(true);

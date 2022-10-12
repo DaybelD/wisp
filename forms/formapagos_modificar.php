@@ -8,6 +8,6 @@ $modfrmpago->textField('Moneda', 'moneda', FH_STRING, '');
 
 $modfrmpago->textField('Plataforma', 'plataforma', FH_STRING, '', '');
 
-$modfrmpago->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm');
+$modfrmpago->submitButton('Agregar', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
 $modfrmpago = $modfrmpago->flush(true);

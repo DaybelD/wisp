@@ -34,7 +34,7 @@
       <td>{$contr.fecha}</td>
       <td>{$contr.zona_id}</td>
   	  <td>
-          <a class="btn btn-outline-dark btn-sm" href="contratos_modificar.php?id={$user.id}" role="button" title="Modificar cliente">
+          <a class="btn btn-outline-dark btn-sm" href="contratos_modificar.php?id={$contr.id}" role="button" title="Modificar cliente">
           <img src="images/pencil-square.svg" width="16" height="16">
         </a>
       </td>
