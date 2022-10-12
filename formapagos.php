@@ -2,6 +2,15 @@
 require_once 'requires.php';
 $modulo = 'Finanzas_Formas de pago';
 $c = $pdo->sql2array('SELECT id, nombre, moneda_id, plataforma FROM formas_pagos');
+$smarty->assign('cab',
+	'<link rel="stylesheet" href="./vendor/datatables/css/dataTables.bootstrap.min.css">
+	<link rel="stylesheet" href="./vendor/datatables/css/dataTables.bootstrap5.min.css">
+	<link rel="stylesheet" href="./css/estilo.css">');
+$smarty->assign('js',
+	'<script src="./vendor/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="./vendor/datatables/js/dataTables.bootstrap5.js"></script>'
+	. smt_script('./scripts/usuarios.js')
+);
 
 $smarty->assign('c', $c);
 $smarty->display('formapagos.tpl');

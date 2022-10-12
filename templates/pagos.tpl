@@ -1,14 +1,20 @@
 {include file="cab2.tpl" titulo="Pagos"}
-
-<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2">
-  <h3>Finanzas / Pagos</h3>
-  <a class="btn btn-outline-light" href="pagos_agregar.php" role="button" title="Agregar contrato">
-    <i class="bi bi-plus-lg"></i> Agregar
+<div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-0">
+  <h3>PAGOS</h3>
+  <a class="btn btn-outline-light" href="pagos_agregar.php" role="button" title="Agregar usuario">
+    <i class="bi bi-person-plus"></i> Agregar
   </a>
 </div>
-
+<div class="d-flex flex-row justify-content-between text-white ps-2">
+    <nav>
+    <ol class="breadcrumb text-dark rounded">
+        <li class="breadcrumb-item"><a href="principal.php">Inicio</a></li>
+        <li class="breadcrumb-item">Pagos</li>
+      </ol>
+    </nav>
+</div>
 <div class="table-responsive">
-<table class="table">
+<table class="table" id="tabla">
   <thead>
     <tr>
       <th scope="col">Nro.</th>
@@ -26,31 +32,14 @@
       <td>Mega PLUS</td>
       <td>25/03/2022</td>
       <td>Zona #1</td>
-  	  <td>{include file="acciones.tpl"}</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Mark</td>
-      <td>Advanced</td>
-      <td>12/04/2021</td>
-      <td>Zona #4</td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>   
-     <tr>
-      <th scope="row">3</th>
-      <td>Luis</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>{include file="acciones.tpl"}</td>
-    </tr>
-     <tr>
-      <th scope="row">4</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>{include file="acciones.tpl"}</td>
+  	  <td>
+        <a class="btn btn-outline-dark btn-sm" href="pagos_modificar.php" role="button" title="Modificar usuario">
+        <img src="images/pencil-square.svg" width="16" height="16">
+        </a>
+        <a class="btn btn-outline-dark btn-sm" href="#" role="button" title="Deshabilitar usuario">
+        <img src="images/x-circle.svg" width="16" height="16">
+        </a>
+      </td>
     </tr>
   </tbody>
 </table>

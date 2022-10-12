@@ -1,13 +1,13 @@
-{include file="cab2.tpl" titulo="Agregar"}
+{include file="cab2.tpl" titulo="Agregar factura"}
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-0">
-  <h3>Agregar gasto</h3>
+  <h3>Agregar factura</h3>
 </div>
 <div class="d-flex flex-row justify-content-between text-white ps-2">
     <nav>
     <ol class="breadcrumb text-dark rounded">
         <li class="breadcrumb-item"><a href="principal.php">Inicio</a></li>
-        <li class="breadcrumb-item"><a href="gastos.php">Gastos</a></li>
-        <li class="breadcrumb-item">Agregar nuevo gasto</li>
+        <li class="breadcrumb-item"><a href="facturas.php">Facturación</a></li>
+        <li class="breadcrumb-item">Agregar nueva factura</li>
       </ol>
     </nav>
 </div>
@@ -15,8 +15,8 @@
 	<div class="mb-3">
 		<div class="container">
 			<div class="col-lg-4 offset-lg-4">
-			{$agregargas}
-		</div>
+			{$agregarfac}
+			</div>
 		</div>
 	</div>
 </div>
