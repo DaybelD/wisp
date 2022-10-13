@@ -27,11 +27,11 @@ $modcontr->dateTextField('Fecha de inicio del contrato', 'fecha', FH_STRING);
 $zonas = $pdo->sql2options("SELECT id, nombre FROM zonas ORDER BY nombre ASC");
 $modcontr-> selectField('Zona', 'zona_id', $zonas, null, "form-select-sm", null);
 
-$modcontr->textArea('Observaciones', 'observaciones', FH_STRING, '', '');
+$modcontr->textArea('Observaciones', 'observacion', FH_STRING, '', '');
 
 $modcontr->submitButton('Modificar contrato', 'btn_continuar', 'btn-primary btn-sm mt-3');
 
-$datos = $pdo->sql2row('SELECT cliente_id, plan_id, instal_id, personal_id, fecha, zona_id, observaciones from contratos where id = ?', [$id], ['STR']);
+$datos = $pdo->sql2row('SELECT cliente_id, plan_id, instal_id, personal_id, fecha, zona_id, observacion from contratos where id = ?', [$id], ['STR']);
 $modcontr->setValue('id', $id);
 $modcontr->setValue('cliente_id', $datos['cliente_id']);
 $modcontr->setValue('plan_id', $datos['plan_id']);
@@ -39,6 +39,6 @@ $modcontr->setValue('instal_id', $datos['instal_id']);
 $modcontr->setValue('personal_id', $datos['personal_id']);
 $modcontr->setValue('fecha', $datos['fecha']);
 $modcontr->setValue('zona_id', $datos['zona_id']);
-$modcontr->setValue('observaciones', $datos['observaciones']);
+$modcontr->setValue('observacion', $datos['observacion']);
 
 $modcontr = $modcontr->flush(true);
