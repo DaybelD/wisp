@@ -32,7 +32,7 @@
           <td>{$user.nivel}</td>
           <td>{$user.estatus}</td>
           <td>
-            <a class="btn btn-outline-dark btn-sm" href="modificarusuario.php?id={$user.id}" role="button" title="Modificar usuario">
+            <a class="btn btn-outline-dark btn-sm" href="usuarios_modificar.php?id={$user.id}" role="button" title="Modificar usuario">
               <img src="images/pencil-square.svg" width="16" height="16">
             </a>
             <a class="btn btn-outline-dark btn-sm" href="cambiarclave.php?id={$user.id}" role="button" title="Cambiar clave">

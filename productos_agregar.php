@@ -1,6 +1,6 @@
 <?php
 require_once 'requires.php';
-require_once 'forms/agregarproduc.php';
+require_once 'forms/productos_agregar.php';
 
 $smarty->assign('agregarproduc', $agregarproduc);
-$smarty->display('agregarproductos.tpl');
+$smarty->display('productos_agregar.tpl');

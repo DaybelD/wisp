@@ -5,4 +5,4 @@ $id = $_GET['id'];
 require_once 'forms/usuarios_modificar.php';
 
 $smarty->assign('modificaruser', $modificaruser);
-$smarty->display('modificarusuario.tpl');
+$smarty->display('usuarios_modificar.tpl');

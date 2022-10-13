@@ -1,7 +1,7 @@
 {include file="cab2.tpl" titulo="Formas de pago"}
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-0">
   <h3>FORMAS DE PAGO</h3>
-  <a class="btn btn-outline-light" href="gastos_agregar.php" role="button" title="Agregar">
+  <a class="btn btn-outline-light" href="formapagos_agregar.php" role="button" title="Agregar">
     <i class="bi bi-person-plus"></i> Agregar
   </a>
 </div>
