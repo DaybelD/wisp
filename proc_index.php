@@ -8,9 +8,19 @@ if (password_verify($_POST['clave'],
 	session_start();
 
 	$_SESSION['usuario'] = $pdo->sql2array("
-		SELECT id, nombre, nivel
-		FROM usuarios
-		WHERE id LIKE ? LIMIT 1;", [$_POST['login']], ['STR'])[0];
+		SELECT
+			a.id,
+			a.nombre nom_usu,
+			b.nombre nom_rol,
+			a.rol_id
+		FROM
+			usuarios a,
+			roles b
+		WHERE
+			a.id LIKE ?
+			AND
+				a.rol_id = b.id
+		LIMIT 1;", [$_POST['login']], ['STR'])[0];
 	ir('principal.php');
 }
 
