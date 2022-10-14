@@ -1,4 +1,4 @@
-{include file="cab2.tpl" titulo="Almacén"}
+{include file="cab2.tpl" titulo="Routers"}
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-0">
   <h3>ROUTERS</h3>
   <a class="btn btn-outline-light" href="routers_agregar.php" role="button" title="Agregar">

@@ -9,12 +9,7 @@ $agregarpers-> textField('Nombre', 'nombre');
 $agregarpers-> textArea('Dirección', 'direccion');
 
 
-$ciudades = array(
-    ''             => '-- Select --',
-    'val'           => 'Valera',
-    'truji'          => 'trujillo',
-
-);
+$ciudades = $pdo->sql2options("SELECT id, nombre FROM ciudades ORDER BY nombre ASC");
 $agregarpers-> selectField('Ciudades', 'ciudades', $ciudades, FH_STRING, "form-select-sm", 'city');
 
 $agregarpers-> textField('E-mail', 'email');

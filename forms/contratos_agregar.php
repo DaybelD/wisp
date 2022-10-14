@@ -26,7 +26,7 @@ $agregarcontr->dateTextField('Fecha de inicio del contrato', 'fecha', FH_STRING)
 $zonas = $pdo->sql2options("SELECT id, nombre FROM zonas ORDER BY nombre ASC");
 $agregarcontr->selectField('Zona', 'zona_id', $zonas, FH_STRING, "form-select-sm");
 
-$agregarcontr->textArea('Observaciones', 'observaciones', FH_STRING, '', '');
+$agregarcontr->textArea('Observacion', 'observacion', FH_STRING, '', '');
 
 $agregarcontr->submitButton('Agregar contrato', 'btn_continuar', 'btn-primary btn-sm mt-3');
 

@@ -29,7 +29,7 @@
         <tr>
           <td>{$user.id}</td>
           <td>{$user.nombre}</td>
-          <td>{$user.nivel}</td>
+          <td>{$user.rol_id}</td>
           <td>{$user.estatus}</td>
           <td>
             <a class="btn btn-outline-dark btn-sm" href="usuarios_modificar.php?id={$user.id}" role="button" title="Modificar usuario">

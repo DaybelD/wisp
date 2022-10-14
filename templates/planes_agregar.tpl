@@ -1,4 +1,4 @@
-{include file="cab2.tpl" titulo="Agregar cliente"}
+{include file="cab2.tpl" titulo="Agregar plan"}
 <div class="d-flex flex-row justify-content-between bg-secondary text-white p-2 mb-0">
   <h3>Agregar plan</h3>
 </div>

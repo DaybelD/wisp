@@ -1,10 +1,11 @@
 <?php
 
-$agregarcom = new FormHandler('', '');
+$agregarcom = new FormHandler('frm_compras_agregar', 'compras_agregar_proc.php');
 
 $agregarcom->textField('Nro de compra', 'id', FH_STRING);
 
 $agregarcom->dateTextField('Fecha', 'fecha', FH_STRING);
+$agregarcom->textArea('Descripción', 'descripcion');
 
 $agregarcom->textField('Referencia', 'referencia', FH_STRING);
 $agregarcom->textField('Total', 'total', FH_STRING);

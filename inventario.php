@@ -1,5 +1,5 @@
 <?php
 require_once 'requires.php';
-$modulo = 'Ajustes_Inventario';
+$modulo = 'Almacén_Inventario';
 
 $smarty->display('inventario.tpl');
